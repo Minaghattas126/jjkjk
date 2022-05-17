@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Menu</title>
+	<style type="text/css">
+				*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		ul {
+	   list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color: #333;
+       text-align: center;
+       min-height: 10px;
+       }
+       li {
+       display: inline-block;
+       }
+
+       a {
+      display: block;
+      width: 100px;
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+      font-family: sans-serif;
+      text-align: center;
+      }
+
+      li a:hover {
+      color: red;
+      }
+      li a:hover:not(.active) {
+       color: red;
+      }
+    .active {
+    color: red;
+      }
+    .big{
+    font-weight: 400;
+    font-size: 38px;
+    color: #333;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.1;
+    text-align: center;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    }
+    .big::after {
+	position: absolute;
+    content: "";
+    background: #d43031;
+    height: 2px;
+    width: 70px;
+    bottom: 0;
+    margin-left: -35px;
+    left: 50%;
+}
+.work,.work2,.work3{
+	font-weight: 400;
+    font-size: 30px;
+    color: #333;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.1;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.work::after {
+    position: absolute;
+    content: "";
+    background: #d43031;
+    height: 2px;
+    width: 70px;
+    bottom: 0;
+    margin-left: 80px;
+    margin-right: 120px;
+    left: 10%;
+}
+.work2::after {
+    position: absolute;
+    content: "";
+    background: #d43031;
+    height: 2px;
+    width: 70px;
+    bottom: 0;
+    margin-left: 80px;
+    margin-right: 120px;
+    left: -15%;
+}
+.work3::after {
+    position: absolute;
+    content: "";
+    background: #d43031;
+    height: 2px;
+    width: 70px;
+    bottom: 0;
+    margin-left: 80px;
+    margin-right: 120px;
+    left: -5%;
+}
+.place{
+	font-weight: 400;
+    font-size: 25px;
+    color: #444;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+.first,.second,.third,.fourth{
+	    display: block;
+	    float: left;
+	    margin-top: 20px;
+	    align-items: center;
+	    margin-left: 65px;
+}
+.strong{
+	margin-right: -15px;
+	margin-left: -40px;
+}
+	</style>
+
+</head>
+<body>
+<ul>
+	<li><a href="page 2.html">HOME</a></li>
+	<li><a href="page 3.html" class="active">MENU</a></li>
+	<li><a href="page 4.html">CHEFF</a></li>
+	<li><a href="page 5.html">CONTACT</a></li>
+</ul>
+<h2 class="big">MENU</h2>
+<br>
+<br>
+<div class="strong">
+<div class="first">
+	<h2 class="work" style="margin-left: 60px;">BREAKFAST & STARTERS</h2>
+	<p class="place">Tortellini Skewers</p>
+	<p style="float: right;margin-top: -36px">$9</p>
+	<p style="font-size: 17px;width: 600px;font-family: sans-serif;">
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit,duis sed dapibus leo nec ornare diam.
+	</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p class="place">Fried Ravioli</p>
+	<p style="float: right;margin-top: -36px">$7</p>
+		<p style="font-size: 17px;width: 600px;font-family: sans-serif;">
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit,duis sed dapibus leo nec ornare diam.
+	</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p class="place">Wild Mushroom Arancini</p>
+	<p style="float: right;margin-top: -36px">$9</p>
+		<p style="font-size: 17px;width: 600px;font-family: sans-serif;">
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit,duis sed dapibus leo nec ornare diam.
+	</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p class="place">Mozzarella Sticks</p>
+		<p style="float: right;margin-top: -36px">$10</p>
+		<p style="font-size: 17px;width: 600px;font-family: sans-serif;">
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit,duis sed dapibus leo nec ornare diam.
+	</p>
+</div>
+<div class="second">
+	<h2 class="work3" style="margin-left:120px;">MAIN COURSE</h2>
+	<p class="place">Roast Stuffed Chicken</p>
+	<p style="float: right;margin-top: -36px">$18</p>
+	<p style="font-size: 17px;width: 600px;font-family: sans-serif;">
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit,duis sed dapibus leo nec ornare diam.
+	</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p class="place">Chicken & Mushroom Pasta</p>
+	<p style="float: right;margin-top: -36px">$20</p>
+		<p style="font-size: 17px;width: 600px;font-family: sans-serif;">
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit,duis sed dapibus leo nec ornare diam.
+	</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p class="place">Beef Lasagne</p>
+	<p style="float: right;margin-top: -36px">$14</p>
+		<p style="font-size: 17px;width: 600px;font-family: sans-serif;">
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit,duis sed dapibus leo nec ornare diam.
+	</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p class="place">Chicken Goujons</p>
+		<p style="float: right;margin-top: -36px">$19</p>
+		<p style="font-size: 17px;width: 600px;font-family: sans-serif;">
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit,duis sed dapibus leo nec ornare diam.
+	</p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="third">
+    <h2 class="work2" style="margin-left: 200px;">DINNER</h2>
+	<p class="place">Sesame-Ginger Beef</p>
+	<p style="float: right;margin-top: -36px">$15</p>
+	<p style="font-size: 17px;width: 600px;font-family: sans-serif;">
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit,duis sed dapibus leo nec ornare diam.
+	</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p class="place">Crispy Fried Chicken</p>
+	<p style="float: right;margin-top: -36px">$17</p>
+		<p style="font-size: 17px;width: 600px;font-family: sans-serif;">
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit,duis sed dapibus leo nec ornare diam.
+	</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p class="place">Mongolian Shrimp & Broccoli</p>
+	<p style="float: right;margin-top: -36px">$18</p>
+		<p style="font-size: 17px;width: 600px;font-family: sans-serif;">
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit,duis sed dapibus leo nec ornare diam.
+	</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p class="place">Spicy Coconut Salmon</p>
+		<p style="float: right;margin-top: -36px">$20</p>
+		<p style="font-size: 17px;width: 600px;font-family: sans-serif;">
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit,duis sed dapibus leo nec ornare diam.
+	</p>
+</div>
+<div class="fourth">
+    <h2 class="work2" style="margin-left: 200px;">DESSERTS</h2>
+	<p class="place">Chocolate Mud Cake</p>
+	<p style="float: right;margin-top: -36px">$11</p>
+	<p style="font-size: 17px;width: 600px;font-family: sans-serif;">
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit,duis sed dapibus leo nec ornare diam.
+	</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p class="place">Bourbon-Pecan Tart</p>
+	<p style="float: right;margin-top: -36px">$14</p>
+		<p style="font-size: 17px;width: 600px;font-family: sans-serif;">
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit,duis sed dapibus leo nec ornare diam.
+	</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p class="place">Texas Sheet Cake</p>
+	<p style="float: right;margin-top: -36px">$15</p>
+		<p style="font-size: 17px;width: 600px;font-family: sans-serif;">
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit,duis sed dapibus leo nec ornare diam.
+	</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p class="place">Vanilla Cheesecake</p>
+		<p style="float: right;margin-top: -36px">$18</p>
+		<p style="font-size: 17px;width: 600px;font-family: sans-serif;">
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit,duis sed dapibus leo nec ornare diam.
+	</p>
+</div>
+</div>
+</body>
+</html>
